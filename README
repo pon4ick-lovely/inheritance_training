@@ -1,0 +1,38 @@
+Here is a basic README file for your GitHub project. You can customize it according to your project's specifics.
+
+# Pegasus Inheritance Project
+
+This project demonstrates the concept of inheritance in Python by creating a `Pegasus` class that inherits from both `Horse` and `Eagle` classes.
+
+## Installation
+
+To install the project, clone the repository and run the following command in your terminal:
+
+```bash
+git clone https://github.com/your-username/pegasus-inheritance.git
+cd pegasus-inheritance
+
+
+Usage
+To use the Pegasus class, create an instance of the class and call its methods. For example:
+
+
+p1 = Pegasus()
+p1.move(10, 15)
+print(p1.get_pos())  # Output: (10, 15)
+p1.voice()  # Output: Frrr (default sound of the Horse class)
+
+
+Running Tests
+To run the tests, use the following command in your terminal:
+
+python -m unittest main.test
+
+Contributing
+If you would like to contribute to this project, please fork the repository, make your changes, and submit a pull request.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for more information.
+
+
+Remember to replace `your-username` with your actual GitHub username.
